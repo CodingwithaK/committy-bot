@@ -1,37 +1,3 @@
-# GitHub Commit Bot
-
-Generate Organic™ GitHub activity
-<br>_My most insidious idea yet_
-
-<br>
-
-<p align="center">
-  <img width="90%" src="./the-dream.png" alt="The Contribution Dream">
-</p>
-
-<br>
-
-Once a day (if my laptop is open),
-<br>commit-bot adds today's line:
-
-```
-Commit: Wed Sep 25 22:00:00 EDT 2019
-```
-
-This is a Bash script
-<br>designed to be run locally
-<br>(i.e. on _your_ machine)
-
-<br><br>
-
-> But [@theshteves](https://github.com/theshteves),
-> <br>I want this to run every day
-
-_Oh hush_
-
-Nobody commits every day
-<br>Is that what you want?
-<br>🚫 Sorry, not today
 
 We're looking for a more realistic distribution of activity throughout the year
 
@@ -89,7 +55,7 @@ crontab -e
 5. Add this line to [schedule every 10pm or whenever](https://crontab.guru/#0_22_*_*_*)
 
 ```shell
-0 22 * * * /bin/bash /<full-path-to-your-folder>/commit-bot/bot.sh
+0 22 * * * /bin/bash /:D/github/committy-bot/bot.sh
 ```
 
 **Do not forget to include the correct folder path**
